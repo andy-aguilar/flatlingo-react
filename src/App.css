@@ -37,17 +37,19 @@ body {
 }
 
 .circle{
-  border: 1px inset #dbdbdb;
+  border: 1px solid #dbdbdb;
   border-radius: 50%;
   position: absolute;
   top: 403px;
-  left: 49.03%;
-  height: 30px;
-  width: 30px;
+  left: 48.65%;
+  height: 40px;
+  width: 40px;
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 1.2em;
   background-color: white;
+  text-align: center;
+  line-height: 36px;
 }
 
 
@@ -68,7 +70,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  border-right: 1px inset #dbdbdb;
+  border-right: 1px solid #dbdbdb;
 }
 
 
