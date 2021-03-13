@@ -11,9 +11,79 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
+  box-shadow: 0px 2px 1.5px rgb(0 0 0 / 20%);
+  z-index: 3;
+}
+
+.paper-header {
+  background-color: #F9F8F8;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.paper-header h3 {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-left: 40px;
+
+
+}
+
+.circle{
+  border: 1px inset #dbdbdb;
+  border-radius: 50%;
+  position: absolute;
+  top: 403px;
+  left: 49.03%;
+  height: 30px;
+  width: 30px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  background-color: white;
 }
 
 
+
+
+.login-container {
+  width: 60rem;
+  height: 35rem;
+  margin-top: 40px;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+#login-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px inset #dbdbdb;
+}
+
+
+.vertical-split {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.side {
+  width: 50%;
+  height: 100%;
+}
 
 .header-nav {
   max-height: 66px;
@@ -55,6 +125,8 @@ body {
 #main {
   height: 10000px;
   background-color: transparent;
-  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

@@ -1,22 +1,16 @@
-import Header from '../components/Header'
+import React, { useState } from 'react';
+import Header from '../components/Header';
+import LoginContainer from '../containers/LoginContainer';
 
 
 const Homepage = () => {
+    const [login, setLogin] = useState(true)
 
     return(
         <div className="homepage">
-            <Header />
+            <Header login={login} setLogin={setLogin}/>
             <div id="main">
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            <h1>dumbshit</h1><br/>
-            
+                <LoginContainer />
             </div>
         </div>
     );
