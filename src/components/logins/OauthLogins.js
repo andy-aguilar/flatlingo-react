@@ -2,10 +2,10 @@ import facebook from "../../images/facebook_f_logo.svg"
 import google from "../../images/google_icon.png"
 import twitter from "../../images/twitter_icon.png"
 
-const OauthLogins = () => {
+const OauthSignups = () => {
     return(
         <>
-        <p>Or sign in with Facebook, Twitter or Google</p>
+        <p>Or log in with Facebook, Twitter or Google</p>
         <div className="oauth-div"><button className="oauth-button"><img className="oauth-img" src={facebook} alt="Log in with Facebook"/><p>Log in with Facebook</p></button></div>
         <div className="oauth-div"><button className="oauth-button"><img className="oauth-img" src={twitter} alt="Log in with Twitter"/><p>Log in with Twitter</p></button></div>
         <div className="oauth-div"><button className="oauth-button"><img className="oauth-img" src={google} alt="Log in with Google"/><p>Log in with Google</p></button></div>
@@ -14,4 +14,4 @@ const OauthLogins = () => {
     )
 }
 
-export default OauthLogins
+export default OauthSignups

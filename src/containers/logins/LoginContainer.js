@@ -1,7 +1,7 @@
 import Paper from '@material-ui/core/Paper';
-import PaperHeader from '../components/headers/PaperHeader';
-import Login from '../components/logins/Login'
-import OauthLogins from '../components/logins/OauthLogins'
+import PaperHeader from '../../components/headers/PaperHeader';
+import Login from '../../components/logins/Login'
+import OauthLogins from '../../components/logins/OauthLogins'
 
 const LoginContainer = () => {
     return(

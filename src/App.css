@@ -118,6 +118,24 @@ body {
   border-right: 1px solid #dbdbdb;
 }
 
+.signup-container {
+  width: 60rem;
+  height: 35rem;
+  margin-top: 40px;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+#signup-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px solid #dbdbdb;
+}
+
 
 .vertical-split {
   display:flex;

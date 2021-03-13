@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import LoginContainer from '../containers/LoginContainer';
+import LoginContainer from '../containers/logins/LoginContainer';
+import SignupContainer from '../containers/logins/SignupContainer';
+
 
 
 const Homepage = () => {
@@ -10,7 +12,7 @@ const Homepage = () => {
         <div className="homepage">
             <Header login={login} setLogin={setLogin}/>
             <div id="main">
-                <LoginContainer />
+                {login ? <LoginContainer /> : <SignupContainer/>}
             </div>
         </div>
     );
