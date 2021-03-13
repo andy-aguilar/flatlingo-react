@@ -1,6 +1,7 @@
 import Paper from '@material-ui/core/Paper';
 import PaperHeader from '../components/headers/PaperHeader';
-import Login from '../components/Login'
+import Login from '../components/logins/Login'
+import OauthLogins from '../components/logins/OauthLogins'
 
 const LoginContainer = () => {
     return(
@@ -10,8 +11,8 @@ const LoginContainer = () => {
                 <div className="side">
                     <Login/>
                 </div>
-                <div className="side">
-
+                <div className="side oauth-side">
+                    <OauthLogins />
                 </div>
                 <div className="circle">
                     or

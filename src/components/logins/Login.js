@@ -86,7 +86,7 @@ const Login = () => {
                 </FormControl>
                 <FormControl className={clsx(classes.margin)}>
                     <Button variant="contained" color="primary" type="submit">
-                        Submit
+                        Login
                     </Button>
                 </FormControl>
             </form>

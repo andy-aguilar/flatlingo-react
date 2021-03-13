@@ -32,8 +32,52 @@ body {
   font-weight: 400;
   font-size: 1.4em;
   margin-left: 40px;
+}
 
+.oauth-side {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+}
 
+.oauth-side a {
+  color: #556380;
+}
+
+.oauth-img {
+  margin-left: 15px;
+  width: 35px;
+}
+.oauth-div {
+  width: 250px;
+  height: 50px;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.oauth-button {
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 0px;
+  width: 250px;
+  height: 50px;
+  border-radius: 3px;
+  border: .1px solid #dbdbdb;
+  box-shadow: 1px 1px 0.5px #F9F8F8;
+  cursor: pointer;
+  
+
+}
+
+.oauth-button p {
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: 'roboto', sans-serif;
+  color: #282c34;
 }
 
 .circle{
@@ -50,6 +94,7 @@ body {
   background-color: white;
   text-align: center;
   line-height: 36px;
+  cursor: default;
 }
 
 
